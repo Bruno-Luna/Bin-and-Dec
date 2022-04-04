@@ -1,0 +1,37 @@
+body{
+    width: 100vw;
+    background-color: darkblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+    color: white;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main input {
+    width: 30vw;
+    padding: .8rem;
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+    outline: none;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+#result{
+    color: yellow;
+    letter-spacing: 1px;
+    font-size: 2.2rem;
+}
